@@ -7,6 +7,15 @@ set cindent
 set autoindent
 imap <Tab> <C-x><C-f>
 cmap <C-A> <C-B>
+"autocomplete pressing Tab from current file's/keywords path
+function! Tab_Or_Complete()
+  if col('.')>1 && strpart( getline('.'), col('.')-2, 3 ) =~ '^\w'
+    return "\<C-N>"
+  else
+    return "\<Tab>"
+  endif
+endfunction
+inoremap <Tab> <C-R>=Tab_Or_Complete()<CR>
 
 "vim-latex
 execute pathogen#infect()
