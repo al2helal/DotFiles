@@ -15,3 +15,10 @@ endfunction
 
 imap <expr> <cr> CheckItemize() ? '<cr>\item ' : '<cr>'
 imap <expr> o CheckItemize() ? '<cr>\item ' : '<cr>'
+
+command! -b -range=% -nargs=0 NumberFrames 
+    \ :let g:counter=[]|:<line1>,<line2>s/\\begin{frame}.\{-}\zs\(%frame_\d\+\|$\)/\='%frame_'.len(add(g:counter, 42))
+command! -b -range=% -nargs=0 Nframe
+    \ :let g:counter=[]|:<line1>,<line2>s/\\begin{frame}.\{-}\zs\(%frame_\d\+\|$\)/\='%frame_'.len(add(g:counter, 42))
+command! -b -range=% -nargs=0 Nf
+    \ :let g:counter=[]|:<line1>,<line2>s/\\begin{frame}.\{-}\zs\(%frame_\d\+\|$\)/\='%frame_'.len(add(g:counter, 1))
