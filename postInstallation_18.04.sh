@@ -5,14 +5,21 @@ sudo apt-get install vim -y
 sudo apt-get install trash-cli -y
 sudo apt install gnome-tweak-tool -y
 sudo apt install dconf-editor
-gsettings set org.gnome.desktop.interface clock-show-date true
 git clone https://github.com/al2helal/dotfiles.git
 sudo apt install xclip
 ln -s dotfiles/.vim ./.vim
 ln -s dotfiles/.vimrc ./.vimrc
-https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/NASA_Mars_Rover.jpg/800px-NASA_Mars_Rover.jpg
+####################################################################################################
+#desktop setting
+wget https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/NASA_Mars_Rover.jpg/800px-NASA_Mars_Rover.jpg
 mv 800px-NASA_Mars_Rover.jpg Pictures/mars.jpg
-gsettings get org.gnome.desktop.background picture-uri 'file:///home/Pictures/mars.jpg'
+gsettings set org.gnome.desktop.background picture-uri 'file:///home/alhelal/Pictures/mars.jpg'
+gsettings set org.gnome.desktop.interface show-battery-percentage true
+gsettings set org.gnome.desktop.interface clock-show-date true
+gsettings set org.gnome.settings-daemon.peripherals.mouse locate-pointer true
+gsettings set org.gnome.nautilus.desktop trash-icon-visible false
+gsettings set org.gnome.nautilus.desktop volumes-visible false
+####################################################################################################
 sudo apt-get install xterm -y
 sudo apt-get install xsel
 sudo apt-get install keepassx -y

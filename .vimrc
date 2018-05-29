@@ -18,8 +18,6 @@ endfunction
 inoremap <Tab> <C-R>=Tab_Or_Complete()<CR>
 
 "vim-latex
-execute pathogen#infect()
-syntax on
 filetype plugin indent on
 
 
@@ -29,7 +27,6 @@ filetype plugin on
 
 " IMPORTANT: win32 users will need to have 'shellslash' set so that latex
 " can be called correctly.
-set shellslash
 
 " IMPORTANT: grep will sometimes skip displaying the file name if you
 " search in a singe file. This will confuse Latex-Suite. Set your grep
@@ -42,5 +39,3 @@ filetype indent on
 " OPTIONAL: Starting with Vim 7, the filetype of empty .tex files defaults to
 " 'plaintex' instead of 'tex', which results in vim-latex not being loaded.
 " The following changes the default filetype back to 'tex':
-let g:tex_flavor='latex'
-let g:Tex_DefaultTargetFormat='pdf'
