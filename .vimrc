@@ -5,6 +5,7 @@ set nu
 set showmatch
 set cindent
 set autoindent
+set encoding=utf-8
 imap <Tab> <C-x><C-f>
 cmap <C-A> <C-B>
 "autocomplete pressing Tab from current file's/keywords path

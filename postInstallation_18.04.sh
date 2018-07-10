@@ -33,7 +33,7 @@ git config --global core.editor vim
 #sudo apt-get install php7.0 -y
 #sudo apt-get install php7.0-mysql
 #sudo phpenmod pdo_mysql
-sudo apt install php7.2-cli -y
+sudo apt install php7.2-cli php-mbstring -y
 sudo apt install hhvm -y
 sudo apt-get install npm -y
 #curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
@@ -47,3 +47,16 @@ sudo apt-get install vlc -y
 sudo apt-
 sudo snap install sublime-text
 cd /var/www/html && sudo git clone https://alhelal@bitbucket.org/alhelal/HandicraftStore.git
+sudo apt install ubuntu-make
+ sudo apt-get install python3-pip -y
+ sudo apt install gparted -y
+ sudo apt install texmaker -y
+ sudo apt install texstudio -y
+ sudo apt install wvdial -y
+ sudo apt install mariadb-client-core-10.1 -y
+ sudo apt install mariadb-server-core-10.1 -y
+ sudo apt install mariadb-server-10.1 -y
+ sudo apt install apache2 -y
+ sudo apt install thonny -y
+ sudo apt install python3.7 -y
+ sudo apt install python-pip -y
