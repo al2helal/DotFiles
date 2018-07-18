@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "resize -s 40 110 >/dev/null" >>.bashrc
+echo "resize -s 45 135 >/dev/null" >>.bashrc
 gsettings set org.gnome.desktop.interface monospace-font-name 'Ubuntu Mono 15'
 sudo apt-get install vim -y
 sudo apt-get install trash-cli -y
@@ -48,15 +48,16 @@ sudo apt-
 sudo snap install sublime-text
 cd /var/www/html && sudo git clone https://alhelal@bitbucket.org/alhelal/HandicraftStore.git
 sudo apt install ubuntu-make
- sudo apt-get install python3-pip -y
- sudo apt install gparted -y
- sudo apt install texmaker -y
- sudo apt install texstudio -y
- sudo apt install wvdial -y
- sudo apt install mariadb-client-core-10.1 -y
- sudo apt install mariadb-server-core-10.1 -y
- sudo apt install mariadb-server-10.1 -y
- sudo apt install apache2 -y
- sudo apt install thonny -y
- sudo apt install python3.7 -y
- sudo apt install python-pip -y
+sudo apt-get install python3-pip -y
+sudo apt install gparted -y
+sudo apt install texmaker -y
+sudo apt install texstudio -y
+sudo apt install wvdial -y
+sudo apt install mariadb-client-core-10.1 -y
+sudo apt install mariadb-server-core-10.1 -y
+sudo apt install mariadb-server-10.1 -y
+sudo apt install apache2 -y
+sudo apt install thonny -y
+sudo apt install python3.7 -y
+sudo apt install python-pip -y
+sudo apt install gir1.2-gtop-2.0 gir1.2-networkmanager-1.0 gir1.2-clutter-1.0 -y
