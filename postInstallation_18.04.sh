@@ -61,3 +61,4 @@ sudo apt-get install python3.7 -y
 sudo apt-get install python-pip -y
 sudo apt-get install gir1.2-gtop-2.0 gir1.2-networkmanager-1.0 gir1.2-clutter-1.0 -y
 sudo apt-get install spell
+sudo apt-get install kile
