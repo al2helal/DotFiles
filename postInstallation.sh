@@ -11,3 +11,5 @@ sudo apt-get update
 sudo apt-get install php7.0 -y
 sudo apt-get install php7.0-mysql
 sudo phpenmod pdo_mysql
+sudo apt-get install python3-pip
+pip3 install virtualenv
