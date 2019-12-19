@@ -19,3 +19,6 @@ firefox enhancer_for_youtubetm-2.0.98.2-fx.xpi
 #save from youtube downloader
 wget https://addons.mozilla.org/firefox/downloads/file/3455814/savefromnet-8.56-an+fx.xpi
 firefox savefromnet-8.56-an+fx.xpi
+#simple_translate
+wget https://addons.mozilla.org/firefox/downloads/file/3427958/simple_translate-2.2.0-fx.xpi
+firefox simple_translate-2.2.0-fx.xpi
