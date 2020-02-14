@@ -1,6 +1,7 @@
 #vimumm-ff
 wget https://addons.mozilla.org/firefox/downloads/file/3502765/vimium_ff-1.65.1-fx.xpi
 firefox vimium_ff-1.65.1-fx.xpi
+trash vimium_ff-1.65.1-fx.xpi
 #uget
 wget https://addons.mozilla.org/firefox/downloads/file/911315/uget_integration-2.1.3.1-an+fx-linux.xpi
 firefox uget_integration-2.1.3.1-an+fx-linux.xpi
