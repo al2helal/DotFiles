@@ -26,3 +26,4 @@ firefox simple_translate-2.2.0-fx.xpi
 #awesome screenshot
 wget https://addons.mozilla.org/firefox/downloads/file/2622911/awesome_screenshot_plus_capture_annotate_more-3.0.24-fx.xpi
 firefox awesome_screenshot_plus_capture_annotate_more-3.0.24-fx.xpi
+trash awesome_screenshot_plus_capture_annotate_more-3.0.24-fx.xpi
