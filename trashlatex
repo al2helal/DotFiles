@@ -1,0 +1,2 @@
+#!/bin/bash
+trash *.log *.aux *.toc *.out *.nav *.snm *.synctex.gz
